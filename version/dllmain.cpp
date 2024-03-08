@@ -9,6 +9,7 @@
 #include "GameData.h"
 #include <conio.h> // For _getch() on Windows
 #include "xorstr.hpp"
+#include <stdio.h>
 
 
 HANDLE hMainThread;
