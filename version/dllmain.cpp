@@ -19,7 +19,7 @@ HMODULE g_hModule;
 void InitializeConsole() {
     FILE* pFile = nullptr;
     AllocConsole();
-    //SetConsoleTitle(_XOR_(L"Helldivers 2 DLL Proxy PoC"));
+    //SetConsoleTitle(_XOR_(L"Helldivers 2 DLL"));
     freopen_s(&pFile, _XOR_("CONOUT$"), _XOR_("w"), stdout);
 }
 
